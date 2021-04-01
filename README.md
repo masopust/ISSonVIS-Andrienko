@@ -13,7 +13,7 @@ events.describe()
 
 ## Excercise 2
 [Jupyter notebook for DB clustering](https://raw.githubusercontent.com/masopust/ISSonVIS-Andrienko/main/DBClustering.ipynb)
- - Block 4, line 2 - change data source to GitHub:
+ - Block 4 - change data source to GitHub:
 ```python
 #events = pd.read_csv('https://raw.githubusercontent.com/masopust/ISSonVIS-Andrienko/main/cherryblossom_2012-2017.csv', sep=',', decimal='.', 
                       #header=0, index_col='PhotoID', parse_dates=['DateTaken'], date_parser=dt_parse)
@@ -82,4 +82,5 @@ for i in range(len(counts_columns)):
     )
     
     fig = go.Figure(data=boxes,layout=layout)
-    fig.show(renderer="colab")```
+    fig.show(renderer="colab")
+    ```
