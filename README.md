@@ -62,7 +62,7 @@ np.random.seed(123)
 wd = pd.read_csv('https://raw.githubusercontent.com/masopust/ISSonVIS-Andrienko/main/weekly_counts_by_regions.csv')
 wd.head(5)
 ```
-- Block 9 - Use fig.show(render="colab") instead of iplot:
+- Block 9 - Use fig.show(renderer="colab") instead of iplot:
 ```python
 for i in range(len(counts_columns)):
     boxes=[]
