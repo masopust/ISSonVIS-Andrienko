@@ -15,6 +15,7 @@ events.describe()
 
 ## Excercise 2
 [Description for both parts](https://github.com/masopust/ISSonVIS-Andrienko/blob/main/Exercise2_description.pdf)
+
 [Jupyter notebook for DB clustering](https://raw.githubusercontent.com/masopust/ISSonVIS-Andrienko/main/DBClustering.ipynb)
  - Block 4 - change data source to GitHub:
 ```python
